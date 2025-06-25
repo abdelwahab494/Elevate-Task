@@ -68,4 +68,31 @@ The `lib` folder is organized as follows:
 - Add products to the cart using the "+" icon, and check the cart badge in the app bar.
 
 ## Screenshots
-![Home Screen](https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg)
+
+<p float="left">
+  <img src="assets\screenshots\homescreen1.png" width="200"/>
+  &nbsp;&nbsp;
+  <img src="assets\screenshots\homescreen2.png" width="200"/>
+  &nbsp;&nbsp;
+  <img src="assets\screenshots\filteredscreen.png" width="200"/>
+  &nbsp;&nbsp;
+  <img src="assets\screenshots\cartscreen.png" width="200"/>
+  &nbsp;&nbsp;
+  <img src="assets\screenshots\likesscreen.png" width="200"/>
+</p>
+
+## Future Improvements
+- Add a search functionality to filter products by name.
+- Implement a detailed product view screen.
+- Enhance the UI with animations or custom themes.
+- Add offline support for product data.
+
+## Contributing
+Feel free to fork this repository, submit issues, or send pull requests. Any suggestions to improve the project are welcome!
+
+## Acknowledgements
+- Thanks to the [Fake Store API](https://fakestoreapi.com/products) for providing sample product data.
+- Special thanks to the Flutter community for the amazing tools and packages!
+- Thanks to Elevate Flutter Team for giving me this challenging task.
+
+#### Made with ❤️ by Abdelwahab from Kafr El-Sheikh, Egypt.
