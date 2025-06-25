@@ -1,6 +1,6 @@
 # Elevate Task
 
-Welcome to the Elevate Task project! This is a Flutter application developed by Abdelwahab, a 23-year-old Electrical Engineering student from Kafr El-Sheikh, Egypt, specializing in Computer Engineering. This project showcases a product listing app with features like category filtering, cart management, and a liked products section, built as part of a graduation project focused on creating a non-invasive blood sugar measurement device.
+Welcome to the Elevate Task project! This is a Flutter application developed by Abdelwahab, a 23-year-old Electrical Engineering student from Kafr El-Sheikh, Egypt, specializing in Computer Engineering. This project showcases a product listing app with features like category filtering, cart management, and a liked products section.
 
 ## Project Overview
 
@@ -28,7 +28,8 @@ This app is designed to fetch products from a public API, display them in a grid
 The `lib` folder is organized as follows:
 
 - **`models/`**: Contains data models.
-  - `product_model.dart`: Defines `ProductModel` and `Rating` classes for product data parsing from JSON.
+  - `product_model.dart`: Defines `ProductModel` classe for product data parsing from JSON.
+  - `rating_model.dart`: Defines `Rating` classe for rating data parsing from JSON.
 - **`viewmodels/`**: Holds ViewModel classes for state management.
   - `cart_viewmodel.dart`: Manages the cart list and notifies UI changes.
   - `likes_viewmodel.dart`: Handles the liked products list with toggle functionality.
@@ -36,6 +37,7 @@ The `lib` folder is organized as follows:
 - **`views/`**: Contains the UI screens.
   - `product_list_screen.dart`: The main screen displaying products with filtering and interaction options.
   - `liked_screen.dart`: A screen to view and manage liked products.
+  - `cart_screen.dart`: A screen to view and manage products that added to cart.
 - **`services/`**: Includes API service logic.
   - `product_service.dart`: Fetches product data from the Fake Store API.
 - **`main.dart`**: The entry point of the app, setting up providers and the root widget.
@@ -66,3 +68,4 @@ The `lib` folder is organized as follows:
 - Add products to the cart using the "+" icon, and check the cart badge in the app bar.
 
 ## Screenshots
+![Home Screen](https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg)
